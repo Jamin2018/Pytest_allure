@@ -1,0 +1,80 @@
+{
+  "uid" : "313c20d5c20977eb",
+  "name" : "test_run[parametrize1]",
+  "fullName" : "test_case.test_siri.TestHyperx#test_run",
+  "historyId" : "f3f39c2d8d8daa9b4ef3bc6c9b19a2fc",
+  "time" : {
+    "start" : 1603765901082,
+    "stop" : 1603765901269,
+    "duration" : 187
+  },
+  "description" : "excel数据驱动 api 接口",
+  "descriptionHtml" : "<p>excel数据驱动 api 接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "excel数据驱动 api 接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e65b6b836b86e6d9",
+      "name" : "stdout",
+      "source" : "e65b6b836b86e6d9.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_siri"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHyperx"
+  }, {
+    "name" : "host",
+    "value" : "MBP.local"
+  }, {
+    "name" : "thread",
+    "value" : "9293-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_siri"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "parametrize",
+    "value" : "['listZone', 'https://hyperx.bluetek.com.cn:8080/restapi/volume/listDiskState', '', 'get', '{\\n            \"x-auth-ldap-user-id\": \"133\",\\n            \"x-auth-login-token\": \"0a805595-4ab1-4098-907d-e1f195d98740\",\\n            \"x-auth-token\": \"mDeNUzSwU1q2IetCU82t2HC1NHkmLCV63bZlYLmLq0GAuTaOYOwxlq/Q9ivKhoyORKDlz+gLYH/qM6YXkb40UUHLxmOLw7pENAf9dxqhctwr1f+zstoSb4KMN7Z+66pYBbcu++B3U9xqCxXFgPlonJcM0l3iTqbeXufykokeIF8=\",\\n            \"x-auth-user-id\": \"101\",\\n            \"apikey\": \"ASkNbddmq0l3TubWsdAYUqcpPUTqdE5t9YiyoaxSqSLFyd9LWmxFuhLI5r5m\",\\n            \"secretkey\": \"fd1_HocgyRfdWwApW_kwwFLoSIrKMAdEDfiUMLOVDi9wyIPpY89U3S-9lKGw\"\\n        }']"
+  } ],
+  "links" : [ {
+    "name" : "测试用例地址 \uD83D\uDC47",
+    "url" : "http://calapi.51jirili.com/config/common",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "313c20d5c20977eb.json",
+  "parameterValues" : [ "['listZone', 'https://hyperx.bluetek.com.cn:8080/restapi/volume/listDiskState', '', 'get', '{\\n            \"x-auth-ldap-user-id\": \"133\",\\n            \"x-auth-login-token\": \"0a805595-4ab1-4098-907d-e1f195d98740\",\\n            \"x-auth-token\": \"mDeNUzSwU1q2IetCU82t2HC1NHkmLCV63bZlYLmLq0GAuTaOYOwxlq/Q9ivKhoyORKDlz+gLYH/qM6YXkb40UUHLxmOLw7pENAf9dxqhctwr1f+zstoSb4KMN7Z+66pYBbcu++B3U9xqCxXFgPlonJcM0l3iTqbeXufykokeIF8=\",\\n            \"x-auth-user-id\": \"101\",\\n            \"apikey\": \"ASkNbddmq0l3TubWsdAYUqcpPUTqdE5t9YiyoaxSqSLFyd9LWmxFuhLI5r5m\",\\n            \"secretkey\": \"fd1_HocgyRfdWwApW_kwwFLoSIrKMAdEDfiUMLOVDi9wyIPpY89U3S-9lKGw\"\\n        }']" ]
+}

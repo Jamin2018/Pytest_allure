@@ -1,0 +1,315 @@
+{
+  "uid" : "2a808d86db5afb74",
+  "name" : "test_run[parametrize2]",
+  "fullName" : "test_case.test_siri.TestHyperx#test_run",
+  "historyId" : "22c824572b1b1a6b6e75c976e559af80",
+  "time" : {
+    "start" : 1603766879156,
+    "stop" : 1603766879354,
+    "duration" : 198
+  },
+  "description" : "excel数据驱动 api 接口",
+  "descriptionHtml" : "<p>excel数据驱动 api 接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "excel数据驱动 api 接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c76c764d01ab531d",
+      "name" : "stdout",
+      "source" : "c76c764d01ab531d.txt",
+      "type" : "text/plain",
+      "size" : 72
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_siri"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHyperx"
+  }, {
+    "name" : "host",
+    "value" : "MBP.local"
+  }, {
+    "name" : "thread",
+    "value" : "9454-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_siri"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "parametrize",
+    "value" : "['listZoneStatisticalData', 'https://hyperx.bluetek.com.cn:8080/restapi/zone/listZoneStatisticalData', '', 'get', '{\\n            \"x-auth-ldap-user-id\": \"133\",\\n            \"x-auth-login-token\": \"0a805595-4ab1-4098-907d-e1f195d98740\",\\n            \"x-auth-token\": \"mDeNUzSwU1q2IetCU82t2HC1NHkmLCV63bZlYLmLq0GAuTaOYOwxlq/Q9ivKhoyORKDlz+gLYH/qM6YXkb40UUHLxmOLw7pENAf9dxqhctwr1f+zstoSb4KMN7Z+66pYBbcu++B3U9xqCxXFgPlonJcM0l3iTqbeXufykokeIF8=\",\\n            \"x-auth-user-id\": \"101\",\\n            \"apikey\": \"ASkNbddmq0l3TubWsdAYUqcpPUTqdE5t9YiyoaxSqSLFyd9LWmxFuhLI5r5m\",\\n            \"secretkey\": \"fd1_HocgyRfdWwApW_kwwFLoSIrKMAdEDfiUMLOVDi9wyIPpY89U3S-9lKGw\"\\n        }']"
+  } ],
+  "links" : [ {
+    "name" : "测试用例地址 \uD83D\uDC47",
+    "url" : "http://calapi.51jirili.com/config/common",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6cee74fab505fb5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765901272,
+        "stop" : 1603765901457,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "52a879ea5d7abd23",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603765871687,
+        "stop" : 1603765872029,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "b9ad26ad7de68b17",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603765103230,
+        "stop" : 1603765103437,
+        "duration" : 207
+      }
+    }, {
+      "uid" : "d9b484f0d3592856",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603765103015,
+        "stop" : 1603765103220,
+        "duration" : 205
+      }
+    }, {
+      "uid" : "b1aadc1fde12b40c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603765102803,
+        "stop" : 1603765103005,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "c659e64308fc8f5f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764885323,
+        "stop" : 1603764885534,
+        "duration" : 211
+      }
+    }, {
+      "uid" : "690a7083b87279cc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764885105,
+        "stop" : 1603764885314,
+        "duration" : 209
+      }
+    }, {
+      "uid" : "dad1bc9ea63e0508",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764884876,
+        "stop" : 1603764885096,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "994b3faa62c2b18f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764867299,
+        "stop" : 1603764867511,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "c259d8975b5224cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764681919,
+        "stop" : 1603764682123,
+        "duration" : 204
+      }
+    }, {
+      "uid" : "7a04f81d25475151",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764681709,
+        "stop" : 1603764681910,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "b6126dc0be5ae7a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764594119,
+        "stop" : 1603764594327,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "b311d2e22e54de55",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764567395,
+        "stop" : 1603764567608,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "3ca030859b398dd6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764567182,
+        "stop" : 1603764567387,
+        "duration" : 205
+      }
+    }, {
+      "uid" : "d7922e4227777486",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764559414,
+        "stop" : 1603764559630,
+        "duration" : 216
+      }
+    }, {
+      "uid" : "50f5d018f4cafb60",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764559164,
+        "stop" : 1603764559405,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "fd7498dd44b309c8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764558825,
+        "stop" : 1603764559074,
+        "duration" : 249
+      }
+    }, {
+      "uid" : "164667bd54a5902e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764510738,
+        "stop" : 1603764510946,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "b84c446a8fa8330d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764510455,
+        "stop" : 1603764510728,
+        "duration" : 273
+      }
+    }, {
+      "uid" : "6ed07ced8b242377",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764510139,
+        "stop" : 1603764510360,
+        "duration" : 221
+      }
+    }, {
+      "uid" : "ff08efcca860676a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764330203,
+        "stop" : 1603764330415,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "a428af77e91c6c85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764329929,
+        "stop" : 1603764330194,
+        "duration" : 265
+      }
+    }, {
+      "uid" : "3cdf027592e36f97",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764329615,
+        "stop" : 1603764329839,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "89665821805824bb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764250704,
+        "stop" : 1603764250919,
+        "duration" : 215
+      }
+    }, {
+      "uid" : "e284047a9440b4fc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764250487,
+        "stop" : 1603764250690,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "747eabad134fbae4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603764250128,
+        "stop" : 1603764250392,
+        "duration" : 264
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a808d86db5afb74.json",
+  "parameterValues" : [ "['listZoneStatisticalData', 'https://hyperx.bluetek.com.cn:8080/restapi/zone/listZoneStatisticalData', '', 'get', '{\\n            \"x-auth-ldap-user-id\": \"133\",\\n            \"x-auth-login-token\": \"0a805595-4ab1-4098-907d-e1f195d98740\",\\n            \"x-auth-token\": \"mDeNUzSwU1q2IetCU82t2HC1NHkmLCV63bZlYLmLq0GAuTaOYOwxlq/Q9ivKhoyORKDlz+gLYH/qM6YXkb40UUHLxmOLw7pENAf9dxqhctwr1f+zstoSb4KMN7Z+66pYBbcu++B3U9xqCxXFgPlonJcM0l3iTqbeXufykokeIF8=\",\\n            \"x-auth-user-id\": \"101\",\\n            \"apikey\": \"ASkNbddmq0l3TubWsdAYUqcpPUTqdE5t9YiyoaxSqSLFyd9LWmxFuhLI5r5m\",\\n            \"secretkey\": \"fd1_HocgyRfdWwApW_kwwFLoSIrKMAdEDfiUMLOVDi9wyIPpY89U3S-9lKGw\"\\n        }']" ]
+}

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 27 10:47:58 CST 2020","Tue Oct 27 10:47:58 CST 2020","258","test_case","test_siri","TestHyperx","","","test_run[parametrize0]","excel数据驱动 api 接口"
+"passed","Tue Oct 27 10:47:58 CST 2020","Tue Oct 27 10:47:59 CST 2020","201","test_case","test_siri","TestHyperx","","","test_run[parametrize1]","excel数据驱动 api 接口"
+"passed","Tue Oct 27 10:47:59 CST 2020","Tue Oct 27 10:47:59 CST 2020","195","test_case","test_siri","TestHyperx","","","test_run[parametrize3]","excel数据驱动 api 接口"
+"passed","Tue Oct 27 10:47:59 CST 2020","Tue Oct 27 10:47:59 CST 2020","198","test_case","test_siri","TestHyperx","","","test_run[parametrize2]","excel数据驱动 api 接口"
